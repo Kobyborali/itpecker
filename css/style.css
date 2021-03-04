@@ -12,25 +12,29 @@ section{
   height: 100vh;
 }
 
-header h1, header a, header a:hover, header a:checked{
+h1, header a, header a:hover, header a:checked{
   color: #bb6d56;
   font-size: 48px;
 }
 
 main{
   background-image: url("../img/bg/bgbody.jpg");
+  background-size: 100% 100vh;
 }
 
 section.home{
   background-image: url("../img/bg/bgmain.jpg");
   background-size: 100% 100vh;
 }
-/* header */
-header{
-  display: flex;
+
+header, section.service h1{
   width: 100%;
   padding-bottom: 50px;
   padding-top: 50px;
+}
+/* header */
+header{
+  display: flex;
   justify-content: space-between;
 }
 
@@ -79,4 +83,87 @@ section.home div.accent
   right: 0;
   top: 540px;
   z-index: 0;
+}
+/* section services */
+section.service h1
+{
+  text-align: center;
+}
+
+div.groupService{
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+}
+
+div.recService{
+  background-color: #bb6d56;
+  width: 20%;
+  height: 50%;
+}
+
+div.recService:nth-child(2){
+  background-color: #99afc1;
+}
+
+div.recService img{
+  margin: 40px;
+}
+
+div.recService p{
+  font-size: 48px;
+  text-align: center;
+}
+/* section contact */
+section.contact{
+  background-color: g
+}
+section.contact h1{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+div.contactInfo div{
+  width: 33%;
+}
+
+div.contactInfo div img{
+  width: 25%;
+  float: left;
+}
+
+div.contactInfo div p{
+  font-size: 36px;
+  margin-top: 10%;
+  padding-left: 30%;
+}
+
+div.contactInfo{
+  display: flex;
+  justify-content: space-around;
+  color: #99afc1;
+}
+
+section.contact p{
+  text-align: center;
+  color: #99afc1;
+  font-size: 42px;
+  margin-bottom: 50px;
+}
+
+section.contact form{
+  width: 100%;
+  text-align: center;
+  height: 40%;
+}
+
+section.contact input{
+  width: 40%
+}
+
+
+section.contact input:last-child{
+  width: 81%;
+  height: 100%;
 }

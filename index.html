@@ -21,31 +21,43 @@
   <main>
     <section class="service"><a name="service"></a>
       <h1>Услуги</h1>
-      <div class="recService">
-        <img src="img/service/services1.png" alt="Абстрактная иллюстрация">
-        <p>Ремонт ноутбуков и компьютеров</p>
-      </div>
-      <div class="recService">
-        <img src="img/service/services2.png" alt="Абстрактная иллюстрация">
-        <p>Установка Windows и настройка программ</p>
-      </div>
-      <div class="recService">
-        <img src="img/service/services3.png" alt="Абстрактная иллюстрация">
-        <p>Сборки и апгрейд компьютера</p>
+      <div class="groupService">
+        <div class="recService">
+          <img src="img/service/services1.png" alt="Абстрактная иллюстрация">
+          <p>Ремонт ноутбуков и компьютеров</p>
+        </div>
+        <div class="recService">
+          <img src="img/service/services2.png" alt="Абстрактная иллюстрация">
+          <p>Установка Windows и настройка программ</p>
+        </div>
+        <div class="recService">
+          <img src="img/service/services3.png" alt="Абстрактная иллюстрация">
+          <p>Сборки и апгрейд компьютера</p>
+        </div>
       </div>
     </section>
     <section class="contact"><a name="contact"></a>
       <h1>Контакты</h1>
       <div class="contactInfo">
-        <p class="address">ул. Куйбышева 256</p>
-        <p class="number">+3807177777</p>
-        <p class="email">mail@itpecker.com</p>
+        <div class="mapInfo">
+          <img src="img/logo/map.svg" alt="Лого карты">
+          <p class="address">ул. Куйбышева 256</p>
+        </div>
+        <div class="addressInfo">
+          <img src="img/logo/phone.svg" alt="Лого телефона">
+          <p class="number">+3807177777</p>
+        </div>
+        <div class="mailInfo">
+          <img src="img/logo/mail.svg" alt="Лого почты">
+          <p class="email">mail@itpecker.com</p>
+        </div>
       </div>
       <h1>Есть вопросы? Получите быстрый ответ!</h1>
-      <p>Заполните форму ниже и получите квалифицированную поддержку</p>
+      <p class="textHelp">Заполните форму ниже и получите квалифицированную поддержку</p>
       <form class="help" action="index.html" method="post">
         <input type="text" name="userName" value="Ваше имя">
         <input type="text" name="userNumber" value="Ваш номер телефона">
+        <br>
         <input type="text" name="userProblem" value="Опишите вашу проблему...">
       </form>
     </section>
